@@ -17,6 +17,14 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.header {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  padding: 10;
+  background-color: aqua;
+}
 
 @keyframes logo-spin {
   from {
