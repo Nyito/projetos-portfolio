@@ -8,7 +8,7 @@ function HomePage() {
             <div class="right">
                 <nav class="menu">
                     <ul>
-                        <li> <a href="#">Criar Tarefa</a>  </li>
+                        <li> <a href="tarefa">Criar Tarefa</a>  </li>
                         <li> <a href="#">Buscar Tarefas</a>  </li>
                     </ul>
                 </nav>

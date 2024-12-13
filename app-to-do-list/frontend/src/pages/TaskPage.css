@@ -1,0 +1,80 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    height: 100vh; /* Altura total da tela */
+    margin: 0; /* Remove qualquer margem extra do body */
+    background: url("./src/images/homepage.png");
+    background-size: cover; /* A imagem de fundo cobre toda a tela */
+    background-position: center center; /* Centraliza a imagem */
+    display: flex; /* Usando flexbox para distribuir os elementos */
+    flex-direction: row; /* Disposição lado a lado */
+    overflow: hidden; /* Impede o conteúdo de ultrapassar a tela */
+    
+
+}
+
+.center-box{
+    background-color: #941594;
+    width: 60vw;
+    height: 95vh;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.task-header{
+
+    padding-bottom: 20px;
+    /*não sei*/
+
+}
+
+.task-body{
+
+    border: solid;
+    border-radius:  30px;
+    height: 70vh;
+    padding: 20px;
+
+}
+
+.task-footer{
+
+    height: 10vh;   
+
+}
+
+button {
+
+    border: solid;
+    border-radius : 30px;
+    background-color: transparent;
+
+    margin: 20px
+
+}
+
+.btn-create-task{
+
+    right: 20%;
+
+}
+
+.btn-back{
+
+    right: 30%;
+
+}
+
+.btn-clear{
+
+    right: 40%;
+
+}
