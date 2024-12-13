@@ -1,8 +1,9 @@
 const Task = require('../models/taskModel');
 
 const getTasks = async (req, res) => {
+    const query = req.body;
     try {
-        const tasks = await Task.find();
+        const tasks = await Task.find(query);
         res.json(tasks);
     } catch (error) {
         res.status(500).json({ message: 'Server Error' });
