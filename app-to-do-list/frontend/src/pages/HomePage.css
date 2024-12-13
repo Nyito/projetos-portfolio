@@ -1,0 +1,81 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    height: 100vh; /* Altura total da tela */
+    margin: 0; /* Remove qualquer margem extra do body */
+    background: url("./src/images/homepage.png");
+    background-size: cover; /* A imagem de fundo cobre toda a tela */
+    background-position: center center; /* Centraliza a imagem */
+    display: flex; /* Usando flexbox para distribuir os elementos */
+    flex-direction: row; /* Disposição lado a lado */
+    overflow: hidden; /* Impede o conteúdo de ultrapassar a tela */
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+.left{
+    flex: 1;
+    color: black;
+    background: inherit;
+    
+}
+
+.right {
+    height: 100vh;
+    width: 100vh;
+    flex: 1;
+    background-color:  #941594;
+    position: static;
+    color: white;
+    padding: 20px;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+
+
+}
+
+.menu{
+    list-style-type: none;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+    margin-top: 25%;
+    
+
+}
+
+.menu li {
+    margin: 20px;
+    padding: 20px;
+    border: white;
+    width: 70%;
+    border-style: solid;
+    border-radius: 30px;
+    transition: 0.3s;
+    align-self: center;
+
+}
+
+.menu li:hover{
+    background-color: #c44cc4;
+}
+
+.menu a{
+    color: white;
+    font-size: 35px;
+}
